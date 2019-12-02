@@ -5,8 +5,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.docu</groupId>
-    <artifactId>ws-database-integration</artifactId>
+    <artifactId>docucom-ws-database-integration</artifactId>
+    <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.source>1.8</project.build.source>
+        <project.build.target>1.8</project.build.target>
+
+        <postgres.version>42.2.8</postgres.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>${postgres.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
