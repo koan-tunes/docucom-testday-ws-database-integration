@@ -16,6 +16,7 @@
 
         <postgres.version>42.2.8</postgres.version>
         <resteasy.version>3.9.3.Final</resteasy.version>
+        <json.version>20190722</json.version>
     </properties>
 
     <dependencies>
@@ -38,6 +39,11 @@
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-jackson-provider</artifactId>
             <version>${resteasy.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>${json.version}</version>
         </dependency>
     </dependencies>
 
