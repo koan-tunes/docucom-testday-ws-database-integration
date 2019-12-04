@@ -7,6 +7,8 @@ public class UserAddress {
 	private String email;
 	private String city;
 	private String post_code;
+	private String address_line_1;
+	private String address_line_2;
 
 	public int getId() {
 		return id;
@@ -64,6 +66,5 @@ public class UserAddress {
 		this.address_line_2 = address_line_2;
 	}
 
-	private String address_line_1;
-	private String address_line_2;
+
 }
