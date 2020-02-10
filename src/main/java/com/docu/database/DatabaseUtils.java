@@ -5,11 +5,9 @@ import java.sql.DriverManager;
 
 public final class DatabaseUtils {
 
-	private String driver = "org.postgresql.Driver";
-	private String url = "jdbc:postgresql://localhost:5432/docucom_database";
-	private String user = "postgres";
-	private String password = "";
-
+	private DatabaseUtils() {
+		// to prevent instantiation
+	}
 
 	/**
 	 * Tries to return a valid connection to a database defined by the parameters
@@ -29,9 +27,5 @@ public final class DatabaseUtils {
 			final String password) throws Exception {
 		Class.forName(driver);
 		return DriverManager.getConnection(url, user, password);
-	}
-
-	public Connection getDbConnection() throws Exception {
-		return getDbConnection(this.driver, this.url, this.user, this.password);
 	}
 }
