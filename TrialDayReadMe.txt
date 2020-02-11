@@ -1,8 +1,8 @@
 Tasks:
-1. Connect to use proeprties
-1. Read person data from webservice and database
-2. Merge data via id
-3. Export as csv file
+1. Connect to use properties
+2. Read person data from webservice and database
+3. Merge data via id
+4. Export as csv file
 
 Environment
 - Start database/webservice docker:
