@@ -1,3 +1,6 @@
+Trial day prepare:
+-> see https://www.gitea.docu.com/Trialday/docucom-trialday-ws-database-integration
+
 Tasks:
 1. Connect to use properties
 2. Read person data from webservice and database
