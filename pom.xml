@@ -26,7 +26,7 @@
         <project.build.source>1.8</project.build.source>
         <project.build.target>1.8</project.build.target>
 
-        <postgres.version>42.2.8</postgres.version>
+        <postgres.version>42.4.1</postgres.version>
         <resteasy.version>3.9.3.Final</resteasy.version>
         <json.version>20190722</json.version>
     </properties>
